@@ -11,8 +11,8 @@ def division(x, y):
     return x/y
 
 if __name__=="__main__":
-    x = 10
-    y = 5
+    x = float(input("Enter the first number: "))
+    y = float(input("Enter the second number: "))
     print(addition(x, y))
     print(subtraction(x, y))
     print(multiplication(x, y))
